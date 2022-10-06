@@ -12,16 +12,19 @@ body{ background: bisque; }
     margin: auto;
     margin-top: 20px;
 }
+
 .line{
     height: 80px;
     width: 640px;
 }
+
 .white{
     width: 80px;
     height: 80px;
     background: #fff;
     float: left;
 }
+
 .black{
     width: 80px;
     height: 80px;
