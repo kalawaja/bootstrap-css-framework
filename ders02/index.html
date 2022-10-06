@@ -1,28 +1,40 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adidas</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
     <div id="ana">
         <div class="satir">
             <header>
                 <div class="logo">
-                    <img src="images/logo.png" alt="logo">
+                    <img src="images/logo.png" alt="logo" width="120px" height="80px">
                 </div>
                 <div class="ustsag">
                     <div class="sosyal">
                         <a href="#">
-                            <img class="social-logo" src="images/facebook.png" alt="" height="40px" width="40px">
-                            <img class="social-logo" src="images/twitter.png" alt="" height="40px" width="40px">
-                            <img class="social-logo" src="images/youtube.png" alt="" height="45px" width="45px">
-                            <img class="social-logo" src="images/instagram.png" alt="" height="40px" width="40px">
+                            <img src="images/facebook.png" alt="" width="40px" height="40px">
                         </a>
+                        <a href="#">
+                            <img src="images/twitter.png" alt="" width="40px" height="40px">
+                        </a>
+                        <a href="#">
+                            <img src="images/youtube.png" alt="" width="40px" height="40px">
+                        </a>
+                        <a href="#">
+                            <img src="images/instagram.png" alt="" width="40px" height="40px">
+                        </a>
+                    </div>
+                    <div class="ara temizle">
+                        <form action="#" method="get">
+                            <input type="search" placeholder="Sitede Ara" class="textara">
+                            <input type="button" class="btnara">
+                        </form>
                     </div>
                 </div>
                 <div class="temizle"></div>
@@ -30,84 +42,86 @@
         </div>
         <div class="satir">
             <div class="menu">
-                <!--
                 <ul>
                     <li><a href="#">Anasayfa</a></li>
                     <li><a href="#">Hakkımızda</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Referanslar</a></li>
-                    <li><a href="#">İletişim</a></li>
+                    <li><a href="#">iletişim</a></li>
                 </ul>
-                -->
-                <nav class="navbar navbar-expand-lg bg-light">
-                    <div class="container-fluid">
-                      <a class="navbar-brand" href="#">adidas</a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home
-                            </a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Reference</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                          </li>
-                        </ul>
-                        <form class="d-flex" role="search">
-                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                          <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                      </div>
-                    </div>
-                  </nav>
             </div>
         </div>
         <div class="satir">
             <div class="slider">
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      
+                    </div>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="images/shoes-1.webp" class="d-block w-100" alt="...">
+                        <img src="images/s2.jpg"/>
+                
+                        
                       </div>
                       <div class="carousel-item">
-                        <img src="images/shoes-2.webp" class="d-block w-100" alt="...">
+                        <img src="images/s3.jpg">
+                
+                        
                       </div>
                       <div class="carousel-item">
-                        <img src="images/slipper.webp" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="images/shoes-3.webp" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="images/shoes-4.webp" class="d-block w-100" alt="...">
+                        <img src="images/s4.jpg">
+                
+                        <div class="container">
+                          <div class="carousel-caption text-end">
+                            <h1>Ayakkabı</h1>
+                            <p>Tshort</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Tüm Galeri</a></p>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Next</span>
                     </button>
                   </div>
+                
+                
+            </div>
+        </div>
+        <div class="satir">
+            <div class="kampanyalar">
+                <div class="sutun">
+                    <a href="#">
+                        <img src="images/k1.jpg" alt="">
+                        <span>Yeni ürünler</span>
+                    </a>
+                </div>
+                <div class="sutun">
+                    <a href="#">
+                        <img src="images/k2.jpg" alt="">
+                        <span>İndirimli ürünler</span>
+                    </a>
+                </div>
+                <div class="sutun">
+                    <div class="bolum">
+                        <img src="images/b1.jpg" alt="">
+                    </div>
+                    <div class="bolum">
+                        <img src="images/b2.jpg" alt="">
+                    </div>
+                </div>
             </div>
         </div>
         <div class="satir"></div>
-        <div class="satir"></div>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-  </body>
+    <script src="js/bootstrap.js"></script>
+</body>
 </html>
