@@ -2,7 +2,6 @@ body{
     margin: 0px;
     padding: 0px;
     border: 0px;
-
 }
 #ana{
     width: 960px;
@@ -22,6 +21,7 @@ header{
 .sosyal{
     float: right;
     clear: both;
+    filter: grayscale(100%);
 }
 a{
     text-decoration: none;
@@ -34,14 +34,8 @@ a{
     border-bottom: 1px solid #000;
     float: left;
 }
-.btnara{
-    float: left;
-    background-image:url(../images/search_btn.png);
-    width: 40px;
-    height: 40px;
-    border: none;
-    cursor: pointer;
-
+#search-icon {
+    background-color: #fff;
 }
 .temizle{
     clear: both;
