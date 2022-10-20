@@ -1,0 +1,45 @@
+body{
+    background: #333;
+}
+header{
+    background: yellow;
+    width: 100%!important;
+    position: relative;
+    z-index: 10;
+}
+nav{
+    background: #333;
+    line-height: 50px;
+    height: 50px;
+    position: relative;  
+}
+nav ul{
+    background: #333;  
+}
+.navbar,.dropdown-menu{
+    background: #333!important;
+}
+.navbar a{
+    color: yellow!important;
+    padding-left: 30px!important;
+}
+.dropdown-menu li a:hover{
+    color: #333!important;
+    background: yellow!important;
+}
+#myCarousel{
+    margin-top: 20px;
+    position: relative;
+}
+.col{
+    float: left!important;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+.row{
+    position: relative;
+    z-index: 9;
+}
+footer{
+    background: yellow;
+}
